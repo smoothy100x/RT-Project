@@ -17,22 +17,26 @@ RT-Project/
   Code/
     main.py
     requirements.txt
+    restore_results.py
   Result/
+    Archives/
+      analysis-01.zip
+      analysis-02.zip
+      manifest.json
     NoAuction_Zscore/
-    NoAuction_MinMax/
-    NoAuction_DecPre/
-    Auction_Zscore/
-    Auction_MinMax/
-    Auction_DecPre/
-    report.html
-    FINDINGS.md
-    run_summary.json
-    hardware.json
-    config.json
-    ...
+      influence_h*.csv.gz
+      ... preview graphs ...
 ```
 
-`Result/` contains all 981 files from the completed Kaggle run, including 442 PNG graphs, 161 CSV tables, fitted-model arrays, selected predictions, diagnostic summaries, and execution logs. These are saved outputs; reading them does not require rerunning the experiment. Download the repository and open `Result/report.html` locally to browse the full figure gallery and tables.
+All 981 original Kaggle result files are provided, including 442 PNG graphs, 161 CSV tables, fitted-model arrays, selected predictions, diagnostic summaries, and execution logs. For storage, most outputs are bundled in two ZIP archives under `Result/Archives/`. Five large `influence_h*.csv` tables are stored as lossless `.csv.gz` files. The three graphs shown below are also directly viewable in the repository.
+
+After downloading the repository, run the restoration command below. It extracts the archives, decompresses the five CSVs, and checks all 981 restored files against their original sizes and SHA-256 checksums. It uses only the Python standard library and does not rerun the experiment.
+
+```bash
+python3 Code/restore_results.py
+```
+
+Then open `Result/report.html` locally to browse the complete figure gallery and tables. The original outputs retain their original contents and paths after restoration. ZIP and gzip storage copies remain available alongside the restored files.
 
 ## Dataset and targets
 
