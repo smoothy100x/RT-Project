@@ -1,0 +1,3 @@
+split,file,bytes,sha256,matches_public_hash,rows,columns_after_index,nan_count,inf_count,predictor_min,predictor_max
+train,FI2010_train.csv,592560450,53e86cb52a15a50f266a6b41532bd74e54f5cb11da288981d9aa2ecc0bc611ca,True,362400,149,0,0,-114.04132,102.35466
+test,FI2010_test.csv,52403544,fa01243fcae34e4146d6ffbed1d5f4d3f35a06afdd608c22f68f56255360d4e5,True,31937,149,0,0,-48.896331,40.844586

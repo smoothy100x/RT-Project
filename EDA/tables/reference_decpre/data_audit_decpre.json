@@ -1,0 +1,380 @@
+{
+  "variant": "NoAuction_DecPre",
+  "expected_files": [
+    "Train_Dst_NoAuction_DecPre_CF_7.txt",
+    "Test_Dst_NoAuction_DecPre_CF_7.txt",
+    "Test_Dst_NoAuction_DecPre_CF_8.txt",
+    "Test_Dst_NoAuction_DecPre_CF_9.txt"
+  ],
+  "missing_files": [],
+  "files": [
+    {
+      "file": "Train_Dst_NoAuction_DecPre_CF_7.txt",
+      "bytes": 607324298,
+      "sha256": "11af4bbcf26f08a43a436c43619bdf772f552870d54a3b06de7b5344957279fc",
+      "shape": [
+        149,
+        254750
+      ],
+      "dtype_loaded": "float32",
+      "nan_count": 0,
+      "inf_count": 0,
+      "expected_149_rows": true,
+      "n_observations": 254750,
+      "n_predictors": 144,
+      "n_label_horizons": 5,
+      "predictor_min": -0.9208347797393799,
+      "predictor_max": 0.9300000071525574,
+      "predictor_mean": 0.06481457501649857,
+      "predictor_std": 0.10809382796287537,
+      "labels": {
+        "horizon_row_1": {
+          "1.0": {
+            "count": 50262,
+            "proportion": 0.1972993130520118
+          },
+          "2.0": {
+            "count": 154207,
+            "proportion": 0.6053267909715407
+          },
+          "3.0": {
+            "count": 50281,
+            "proportion": 0.1973738959764475
+          }
+        },
+        "horizon_row_2": {
+          "1.0": {
+            "count": 64609,
+            "proportion": 0.2536172718351325
+          },
+          "2.0": {
+            "count": 125862,
+            "proportion": 0.49406084396467126
+          },
+          "3.0": {
+            "count": 64279,
+            "proportion": 0.25232188420019624
+          }
+        },
+        "horizon_row_3": {
+          "1.0": {
+            "count": 74555,
+            "proportion": 0.2926594700686948
+          },
+          "2.0": {
+            "count": 106493,
+            "proportion": 0.41802944062806674
+          },
+          "3.0": {
+            "count": 73702,
+            "proportion": 0.28931108930323846
+          }
+        },
+        "horizon_row_4": {
+          "1.0": {
+            "count": 87605,
+            "proportion": 0.3438861629048086
+          },
+          "2.0": {
+            "count": 80674,
+            "proportion": 0.3166790971540726
+          },
+          "3.0": {
+            "count": 86471,
+            "proportion": 0.3394347399411187
+          }
+        },
+        "horizon_row_5": {
+          "1.0": {
+            "count": 103467,
+            "proportion": 0.4061511285574092
+          },
+          "2.0": {
+            "count": 49437,
+            "proportion": 0.19406084396467124
+          },
+          "3.0": {
+            "count": 101846,
+            "proportion": 0.3997880274779195
+          }
+        }
+      }
+    },
+    {
+      "file": "Test_Dst_NoAuction_DecPre_CF_7.txt",
+      "bytes": 132259850,
+      "sha256": "1acd92e13df8f499aa9475729e1d54455db1ab37894616d0c582cdd012351273",
+      "shape": [
+        149,
+        55478
+      ],
+      "dtype_loaded": "float32",
+      "nan_count": 0,
+      "inf_count": 0,
+      "expected_149_rows": true,
+      "n_observations": 55478,
+      "n_predictors": 144,
+      "n_label_horizons": 5,
+      "predictor_min": -0.5230666995048523,
+      "predictor_max": 0.7100399732589722,
+      "predictor_mean": 0.06595230847597122,
+      "predictor_std": 0.11194805055856705,
+      "labels": {
+        "horizon_row_1": {
+          "1.0": {
+            "count": 7807,
+            "proportion": 0.14072244853815927
+          },
+          "2.0": {
+            "count": 40620,
+            "proportion": 0.7321821262482425
+          },
+          "3.0": {
+            "count": 7051,
+            "proportion": 0.12709542521359818
+          }
+        },
+        "horizon_row_2": {
+          "1.0": {
+            "count": 10253,
+            "proportion": 0.18481199754857783
+          },
+          "2.0": {
+            "count": 36233,
+            "proportion": 0.6531057356069072
+          },
+          "3.0": {
+            "count": 8992,
+            "proportion": 0.16208226684451493
+          }
+        },
+        "horizon_row_3": {
+          "1.0": {
+            "count": 11984,
+            "proportion": 0.21601355492267205
+          },
+          "2.0": {
+            "count": 33073,
+            "proportion": 0.5961462201232921
+          },
+          "3.0": {
+            "count": 10421,
+            "proportion": 0.18784022495403582
+          }
+        },
+        "horizon_row_4": {
+          "1.0": {
+            "count": 14534,
+            "proportion": 0.2619777208983741
+          },
+          "2.0": {
+            "count": 28429,
+            "proportion": 0.5124373625581311
+          },
+          "3.0": {
+            "count": 12515,
+            "proportion": 0.22558491654349472
+          }
+        },
+        "horizon_row_5": {
+          "1.0": {
+            "count": 18415,
+            "proportion": 0.3319333789970799
+          },
+          "2.0": {
+            "count": 21464,
+            "proportion": 0.3868921013735174
+          },
+          "3.0": {
+            "count": 15599,
+            "proportion": 0.28117451962940265
+          }
+        }
+      }
+    },
+    {
+      "file": "Test_Dst_NoAuction_DecPre_CF_8.txt",
+      "bytes": 124378346,
+      "sha256": "950559383a3cf823fd373e6573434cc00c94b9bceac77fe5ee9f1adb38e1abb2",
+      "shape": [
+        149,
+        52172
+      ],
+      "dtype_loaded": "float32",
+      "nan_count": 0,
+      "inf_count": 0,
+      "expected_149_rows": true,
+      "n_observations": 52172,
+      "n_predictors": 144,
+      "n_label_horizons": 5,
+      "predictor_min": -0.4765641987323761,
+      "predictor_max": 0.7618600130081177,
+      "predictor_mean": 0.06378934532403946,
+      "predictor_std": 0.10756736993789673,
+      "labels": {
+        "horizon_row_1": {
+          "1.0": {
+            "count": 7813,
+            "proportion": 0.14975465767078125
+          },
+          "2.0": {
+            "count": 36679,
+            "proportion": 0.7030399447979759
+          },
+          "3.0": {
+            "count": 7680,
+            "proportion": 0.14720539753124282
+          }
+        },
+        "horizon_row_2": {
+          "1.0": {
+            "count": 10077,
+            "proportion": 0.19314958215134556
+          },
+          "2.0": {
+            "count": 32202,
+            "proportion": 0.6172276316798283
+          },
+          "3.0": {
+            "count": 9893,
+            "proportion": 0.1896227861688262
+          }
+        },
+        "horizon_row_3": {
+          "1.0": {
+            "count": 11697,
+            "proportion": 0.22420072069309208
+          },
+          "2.0": {
+            "count": 29117,
+            "proportion": 0.5580962968642184
+          },
+          "3.0": {
+            "count": 11358,
+            "proportion": 0.21770298244268957
+          }
+        },
+        "horizon_row_4": {
+          "1.0": {
+            "count": 13966,
+            "proportion": 0.26769148202100745
+          },
+          "2.0": {
+            "count": 24623,
+            "proportion": 0.47195813846507706
+          },
+          "3.0": {
+            "count": 13583,
+            "proportion": 0.2603503795139155
+          }
+        },
+        "horizon_row_5": {
+          "1.0": {
+            "count": 17324,
+            "proportion": 0.33205550870198575
+          },
+          "2.0": {
+            "count": 17848,
+            "proportion": 0.34209921030437784
+          },
+          "3.0": {
+            "count": 17000,
+            "proportion": 0.3258452809936364
+          }
+        }
+      }
+    },
+    {
+      "file": "Test_Dst_NoAuction_DecPre_CF_9.txt",
+      "bytes": 76138106,
+      "sha256": "c09785b0aed0825ad566f8fe33a3b7d8c3fbb8993856d162976cb4e1c410aca0",
+      "shape": [
+        149,
+        31937
+      ],
+      "dtype_loaded": "float32",
+      "nan_count": 0,
+      "inf_count": 0,
+      "expected_149_rows": true,
+      "n_observations": 31937,
+      "n_predictors": 144,
+      "n_label_horizons": 5,
+      "predictor_min": -0.3077777922153473,
+      "predictor_max": 0.7368000149726868,
+      "predictor_mean": 0.06940101087093353,
+      "predictor_std": 0.11788260191679001,
+      "labels": {
+        "horizon_row_1": {
+          "1.0": {
+            "count": 5547,
+            "proportion": 0.17368569370949055
+          },
+          "2.0": {
+            "count": 21339,
+            "proportion": 0.6681591884021668
+          },
+          "3.0": {
+            "count": 5051,
+            "proportion": 0.15815511788834266
+          }
+        },
+        "horizon_row_2": {
+          "1.0": {
+            "count": 7140,
+            "proportion": 0.22356514387700785
+          },
+          "2.0": {
+            "count": 18183,
+            "proportion": 0.5693396374111532
+          },
+          "3.0": {
+            "count": 6614,
+            "proportion": 0.20709521871183895
+          }
+        },
+        "horizon_row_3": {
+          "1.0": {
+            "count": 8260,
+            "proportion": 0.2586341860537934
+          },
+          "2.0": {
+            "count": 16128,
+            "proportion": 0.5049942073457119
+          },
+          "3.0": {
+            "count": 7549,
+            "proportion": 0.23637160660049472
+          }
+        },
+        "horizon_row_4": {
+          "1.0": {
+            "count": 9967,
+            "proportion": 0.3120831637285907
+          },
+          "2.0": {
+            "count": 12955,
+            "proportion": 0.4056423583930864
+          },
+          "3.0": {
+            "count": 9015,
+            "proportion": 0.28227447787832294
+          }
+        },
+        "horizon_row_5": {
+          "1.0": {
+            "count": 12237,
+            "proportion": 0.3831605974261828
+          },
+          "2.0": {
+            "count": 8748,
+            "proportion": 0.2739142687165357
+          },
+          "3.0": {
+            "count": 10952,
+            "proportion": 0.3429251338572815
+          }
+        }
+      }
+    }
+  ]
+}

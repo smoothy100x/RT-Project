@@ -1,0 +1,7 @@
+zero_based_column,machine_name,family_id,selection_rule,display_lower_quantile,display_upper_quantile,display_lower_value,display_upper_value
+0,ask_price_level_01,u1,Fixed in code before outcome inspection,0.005,0.995,-1.0460224,1.4607779
+1,ask_volume_level_01,u1,Fixed in code before outcome inspection,0.005,0.995,-0.8020915,4.935226748
+40,u2_feature_01,u2,Fixed in code before outcome inspection,0.005,0.995,-1.0557341,3.0969165
+60,u3_feature_01,u3,Fixed in code before outcome inspection,0.005,0.995,-0.31707458,5.3554812
+84,u5_feature_01,u5,Fixed in code before outcome inspection,0.005,0.995,-0.94176953,3.5140602
+126,u7_feature_01,u7,Fixed in code before outcome inspection,0.005,0.995,-0.068289086,2.1695611

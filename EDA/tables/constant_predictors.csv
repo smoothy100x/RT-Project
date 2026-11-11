@@ -1,0 +1,10 @@
+zero_based_column,machine_name,family_id,feature_family,unique_count,mean,std,min,max
+129,u7_feature_04,u7,Average Intensity per Type,1,0,0,0,0
+130,u7_feature_05,u7,Average Intensity per Type,1,0,0,0,0
+131,u7_feature_06,u7,Average Intensity per Type,1,0,0,0,0
+135,u8_feature_04,u8,Relative Intensity Comparison,1,0,0,0,0
+136,u8_feature_05,u8,Relative Intensity Comparison,1,0,0,0,0
+137,u8_feature_06,u8,Relative Intensity Comparison,1,0,0,0,0
+141,u9_feature_04,u9,Limit Activity Acceleration,1,0,0,0,0
+142,u9_feature_05,u9,Limit Activity Acceleration,1,0,0,0,0
+143,u9_feature_06,u9,Limit Activity Acceleration,1,0,0,0,0
