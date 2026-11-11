@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-09-24T07:19:10.712887+00:00",
+  "analysis_scope": "pre-modelling EDA only",
+  "split_protocol": "CF9 anchored split: first 9 trading days train; 10th day held-out test",
+  "random_train_test_split_used": false,
+  "predictive_models_fitted": false,
+  "source": {
+    "dataset": "FreemanOne FI2010",
+    "representation": "NoAuction_ZScore_CF_9",
+    "train": "data/raw/freeman/FI2010_train.csv",
+    "test": "data/raw/freeman/FI2010_test.csv"
+  },
+  "parameters": {
+    "high_correlation_threshold": 0.95,
+    "ks_sample_size_max_per_split": 50000,
+    "ks_sampling_seed_train": 20260923,
+    "ks_sampling_seed_test": 20260924,
+    "psi_bins": "train decile edges with duplicate edges removed; exact full-split counts; 0.5-bin smoothing",
+    "figures_generated": true,
+    "strict_source_gate": true
+  },
+  "limitations": [
+    "All predictors are already normalized; values are interpreted only in standardized units.",
+    "KS statistics use deterministic random samples for bounded runtime and are not accompanied by p-values.",
+    "PSI depends on train-derived bins and is a descriptive heuristic, not a hypothesis test.",
+    "Correlation and condition diagnostics describe association, not causality or predictive usefulness.",
+    "The CSVs contain no stock identifier or timestamp columns, so stock/day-segmented drift cannot be recovered here.",
+    "Engineered members use family-relative names unless individual flat-CSV ordering is independently verified."
+  ],
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "outputs": {
+    "tables": [
+      "class_distribution.csv",
+      "class_distribution_train_test_comparison.csv",
+      "constant_predictors.csv",
+      "correlation_eigen_spectrum.csv",
+      "dataset_overview.csv",
+      "eda_run_manifest.json",
+      "feature_family_summary.csv",
+      "multicollinearity_summary.csv",
+      "per_feature_summary.csv",
+      "raw_lob_correlation_matrix.csv",
+      "representative_features.csv",
+      "train_predictor_correlation_matrix.csv",
+      "train_test_feature_drift.csv",
+      "very_high_correlation_pairs.csv"
+    ],
+    "figures": [
+      "class_distribution_by_horizon.png",
+      "feature_family_drift.png",
+      "multicollinearity_spectrum.png",
+      "predictor_correlation_heatmap.png",
+      "raw_lob_correlation_heatmap.png",
+      "representative_feature_distributions.png",
+      "top_correlated_pairs.png",
+      "train_test_drift.png"
+    ]
+  }
+}

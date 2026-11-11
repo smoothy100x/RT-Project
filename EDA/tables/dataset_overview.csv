@@ -1,0 +1,3 @@
+split,role,path,file_size_bytes_at_validation,sha256,sha256_matches_verified_source,rows,rows_match_verified_source,data_columns,predictor_columns,target_columns,csv_index_sequence_valid,missing_count,inf_count,invalid_label_count,strict_source_gate_enabled
+train,first 9 trading days,data/raw/freeman/FI2010_train.csv,592560450,53e86cb52a15a50f266a6b41532bd74e54f5cb11da288981d9aa2ecc0bc611ca,True,362400,True,149,144,5,True,0,0,0,True
+test,10th trading day held-out,data/raw/freeman/FI2010_test.csv,52403544,fa01243fcae34e4146d6ffbed1d5f4d3f35a06afdd608c22f68f56255360d4e5,True,31937,True,149,144,5,True,0,0,0,True

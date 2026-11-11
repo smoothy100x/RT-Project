@@ -6,7 +6,7 @@ A Regression Techniques project on the FI-2010 limit order book benchmark. We ap
 
 **Authors:** Raj Lohar (BSD-CC-2414) and Aayush Jha (BSD-CC-2401).
 
-[Read the report](Report.pdf) | [Python implementation](Code/main.py) | [Saved Kaggle results](Result/) | [Download the dataset](https://www.kaggle.com/datasets/alpha000x/fi-2010)
+[Read the report](Report.pdf) | [Python implementation](Code/main.py) | [Saved Kaggle results](Result/) | [Pre-modelling EDA](EDA/) | [Download the dataset](https://www.kaggle.com/datasets/alpha000x/fi-2010)
 
 ## Repository contents
 
@@ -18,6 +18,11 @@ RT-Project/
     main.py
     requirements.txt
     restore_results.py
+  EDA/
+    README.md
+    docs/
+    tables/
+    figures/
   Result/
     Archives/
       analysis-01.zip

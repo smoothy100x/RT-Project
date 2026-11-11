@@ -1,0 +1,174 @@
+{
+  "train": {
+    "file": "FI2010_train.csv",
+    "bytes": 592560450,
+    "sha256": "53e86cb52a15a50f266a6b41532bd74e54f5cb11da288981d9aa2ecc0bc611ca",
+    "matches_public_hash": true,
+    "rows": 362400,
+    "columns_after_index": 149,
+    "first_index": "0",
+    "last_index": "362399",
+    "nan_count": 0,
+    "inf_count": 0,
+    "predictor_min": -114.04132,
+    "predictor_max": 102.35466,
+    "labels": {
+      "horizon_1": {
+        "1.0": {
+          "count": 65882,
+          "proportion": 0.18179359823399557
+        },
+        "2.0": {
+          "count": 231506,
+          "proportion": 0.6388134657836645
+        },
+        "3.0": {
+          "count": 65012,
+          "proportion": 0.17939293598233996
+        }
+      },
+      "horizon_2": {
+        "1.0": {
+          "count": 84939,
+          "proportion": 0.2343791390728477
+        },
+        "2.0": {
+          "count": 194297,
+          "proportion": 0.5361396247240618
+        },
+        "3.0": {
+          "count": 83164,
+          "proportion": 0.2294812362030905
+        }
+      },
+      "horizon_3": {
+        "1.0": {
+          "count": 98236,
+          "proportion": 0.27107064017660043
+        },
+        "2.0": {
+          "count": 168683,
+          "proportion": 0.46546081677704193
+        },
+        "3.0": {
+          "count": 95481,
+          "proportion": 0.26346854304635764
+        }
+      },
+      "horizon_4": {
+        "1.0": {
+          "count": 116105,
+          "proportion": 0.3203780353200883
+        },
+        "2.0": {
+          "count": 133726,
+          "proportion": 0.3690011037527594
+        },
+        "3.0": {
+          "count": 112569,
+          "proportion": 0.3106208609271523
+        }
+      },
+      "horizon_5": {
+        "1.0": {
+          "count": 139206,
+          "proportion": 0.38412251655629137
+        },
+        "2.0": {
+          "count": 88749,
+          "proportion": 0.24489238410596026
+        },
+        "3.0": {
+          "count": 134445,
+          "proportion": 0.37098509933774837
+        }
+      }
+    }
+  },
+  "test": {
+    "file": "FI2010_test.csv",
+    "bytes": 52403544,
+    "sha256": "fa01243fcae34e4146d6ffbed1d5f4d3f35a06afdd608c22f68f56255360d4e5",
+    "matches_public_hash": true,
+    "rows": 31937,
+    "columns_after_index": 149,
+    "first_index": "0",
+    "last_index": "31936",
+    "nan_count": 0,
+    "inf_count": 0,
+    "predictor_min": -48.896331,
+    "predictor_max": 40.844586,
+    "labels": {
+      "horizon_1": {
+        "1.0": {
+          "count": 5547,
+          "proportion": 0.17368569370949055
+        },
+        "2.0": {
+          "count": 21339,
+          "proportion": 0.6681591884021668
+        },
+        "3.0": {
+          "count": 5051,
+          "proportion": 0.15815511788834266
+        }
+      },
+      "horizon_2": {
+        "1.0": {
+          "count": 7140,
+          "proportion": 0.22356514387700785
+        },
+        "2.0": {
+          "count": 18183,
+          "proportion": 0.5693396374111532
+        },
+        "3.0": {
+          "count": 6614,
+          "proportion": 0.20709521871183895
+        }
+      },
+      "horizon_3": {
+        "1.0": {
+          "count": 8260,
+          "proportion": 0.2586341860537934
+        },
+        "2.0": {
+          "count": 16128,
+          "proportion": 0.5049942073457119
+        },
+        "3.0": {
+          "count": 7549,
+          "proportion": 0.23637160660049472
+        }
+      },
+      "horizon_4": {
+        "1.0": {
+          "count": 9967,
+          "proportion": 0.3120831637285907
+        },
+        "2.0": {
+          "count": 12955,
+          "proportion": 0.4056423583930864
+        },
+        "3.0": {
+          "count": 9015,
+          "proportion": 0.28227447787832294
+        }
+      },
+      "horizon_5": {
+        "1.0": {
+          "count": 12237,
+          "proportion": 0.3831605974261828
+        },
+        "2.0": {
+          "count": 8748,
+          "proportion": 0.2739142687165357
+        },
+        "3.0": {
+          "count": 10952,
+          "proportion": 0.3429251338572815
+        }
+      }
+    }
+  }
+}
